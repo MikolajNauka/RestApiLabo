@@ -1,0 +1,1 @@
+"""Pakiet Serwisu Magazynowego."""
