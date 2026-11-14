@@ -164,24 +164,4 @@ curl -i http://localhost:8002/stock/999
 ```
 *Zwraca status `404 Not Found` informujący, że produkt nie istnieje w Serwisie Produktów.*
 
----
 
-## 📸 Zrzuty Ekranu
-
-### 1. Równolegle uruchomione mikroserwisy
-![Uruchomione Serwery](screenshots/01_running_servers.png)
-
-### 2. Scenariusz sukcesu (200 OK)
-![Scenariusz Sukcesu](screenshots/02_success_scenario.png)
-
-### 3. Scenariusz błędu (404 Not Found)
-![Scenariusz Błędu](screenshots/03_error_scenario.png)
-
----
-
-## 📄 Oddanie Zadania
-W repozytorium znajduje się wygenerowany plik [Sprawozdanie_System_Rozproszony_REST_API.pdf](Sprawozdanie_System_Rozproszony_REST_API.pdf) zawierający:
-- Zrzut ekranu odpalonych obu serwerów
-- Zrzut ekranu scenariusza sukcesu
-- Zrzut ekranu scenariusza błędu (kod 404)
-- Opis architektury, diagramy sekwencji i wnioski.
